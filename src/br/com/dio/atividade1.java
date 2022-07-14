@@ -1,6 +1,6 @@
 package br.com.dio;
 
-public class variaveis {
+public class atividade1 {
 
     public static void main(String[] args) {
       int i;
@@ -44,8 +44,6 @@ public class variaveis {
       System.out.println(quantidadeProduto);
       System.out.println(NUMERO_TENTATIVAS);
       System.out.println(QUANTIDADE_OPCOES);
-
-
 
     }
 
