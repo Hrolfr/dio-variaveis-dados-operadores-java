@@ -19,7 +19,7 @@ public class atividade3 {
 
         int i = ++k;
         int j = k++;
-        int k = k;
+        //int k = k;
 
         System.out.println("i:" + i);
         System.out.println("j:" + j);
@@ -47,9 +47,7 @@ public class atividade3 {
         System.out.println("c%b:" + r5);
     }
 
-    private static void ◘atribuicao() {
-
-
+    private static void atribuicao() {
 
         int i = 1500;
         short j = 15;
@@ -81,14 +79,27 @@ public class atividade3 {
 
     private static void precedencia() {
 
-        int k = 10;
+        int i = 10;
+        int j = 20;
+        int k = 30;
 
-        int i = ++k;
-        int j = k++;
-        int k = k;
+        int a = i++ + --j * k; //10 + 19 * 30 = 570 + 10 = 580
 
-        System.out.println("i:" + i);
-        System.out.println("j:" + j);
-        System.out.println("k:" + k);
+        System.out.println("i++ + --j * k:" + a);
+
+        System.out.println("i:" + 1); //11
+
+        int b = k / --i % 3 + 1; //30 / 10 % 3 + 1
+
+        System.out.println("k / --i % 3 + 1:" + b);
+
+        System.out.println("i:" + i); //10
+
+        int c = 2;
+
+        c *= i +=5; //a anotação é confusa, mas no fim c = 30
+
+        System.out.println(" c *= i +=5:" + c);
+
     }
 }
