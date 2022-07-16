@@ -16,19 +16,19 @@ public class atividade4 {
             //upcast
 
             int i2;
-            int l2 = 10000000000000L;
+            int l2 = 100000000L;
             i2 = (int) l2;
             //perda
 
             int i3;
             long l3 = 10000;
             i3 = (int) l3;
-            (não perde dados)
+            //(não perde dados)
 
             double d1;
             float f1 = 10.5f;
             d1 = f1;
-            (up)
+            //(up)
 
             float f2;
             float f3;
@@ -37,7 +37,7 @@ public class atividade4 {
             double d3 = 10000.0000000000000000000000000d;
             f3 = (float) d3; //p
 
-            int i4
+            int i4;
             float f4 = 11.5697f;
             i4 = (int) f4;
 
